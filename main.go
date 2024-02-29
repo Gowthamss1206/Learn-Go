@@ -8,6 +8,7 @@ func main() {
 	fmt.Println("Hello Gophers! 🥳")
 	main2()
 	stringLiteral()
+	shortDeclarationOperator()
 }
 
 // Format Printing
@@ -22,4 +23,10 @@ func stringLiteral() {
 	is a
 	string 
 	literal`)
+}
+
+func shortDeclarationOperator() {
+	a := 1
+	b := "Gowtham"
+	fmt.Printf("%d is %s\n", a, b)
 }
